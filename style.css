@@ -1,0 +1,28 @@
+body {
+  background-color: #fafefc;
+  font-family: "Montserrat", sans-serif;
+  color: #4d4d4d;
+  font-size: 14 pt;
+}
+
+h1 {
+  color: #2472b3;
+  font-size: 15 pt;
+}
+
+a {
+  color: #ffffff;
+  background: #2472b3;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+
+div {
+  margin: 0 auto;
+  padding: 30 px;
+
+}
