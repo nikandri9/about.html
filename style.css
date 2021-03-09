@@ -1,28 +1,80 @@
 body {
-  background-color: #fafefc;
-  font-family: "Montserrat", sans-serif;
+  background-color: #f1f1f0;
+  font-family: "Ubuntu", sans-serif;
   color: #4d4d4d;
-  font-size: 14 pt;
+  font-size: 12pt;
+  text-align: center;
 }
 
 h1 {
-  color: #2472b3;
-  font-size: 15 pt;
+  color: #4d4d4d;
+  font-size: 20pt;
+  font-family: "Ubuntu", sans-serif;
 }
 
 a {
   color: #ffffff;
-  background: #2472b3;
+  background: #4d4d4d;
   text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin: 20px;
+  display: inline-block;
+  text-transform: uppercase;
 }
 
 a:hover {
   opacity: 0.8;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 10px 0px;
 }
 
 
-div {
-  margin: 0 auto;
-  padding: 30 px;
+.card-white {
+  width: 300px;
+  margin: 20px auto;
+  display: inline-block;
+  background-color: #ffffff;
+  border: 1px solid #4d4d4d;
+  box-shadow: 5px 5px 0 #4d4d4d;
+  padding: 30px;
+  padding-bottom: 50px;
+  border-radius: 3px;
+  box-shadow: 10px 10px #;
+}
 
+@media (max-width: 900px) {
+  .card-white {
+    width: 250px;
+  }
+}
+
+@media (max-width: 700px) {
+  .card-white {
+     width: 200px;
+  }
+}
+
+@media (max-width: 400px) {
+  .card-white {
+    width: 150px;
+  }
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-evenly;
 }
