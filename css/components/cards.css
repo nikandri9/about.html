@@ -1,0 +1,61 @@
+
+.page {
+  height: 100vh;
+  padding: 50px;
+}
+
+.container { /* Masonry container */
+  display: flex;
+  width: 80%;
+  max-width: 800px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.card-single,
+.card-three {
+  max-width: 800px;
+  background-color: #ffffff;
+  border: 1px solid #4d4d4d;
+  box-shadow: 5px 5px 0 #4d4d4d;
+  padding: 30px;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.card-single {
+  display: block;
+  margin: 0 auto;
+  width: 95%;
+}
+
+.card-three {
+  display: inline-block;
+  margin: 20px;
+  width: 80%;
+}
+
+/* Masonry on medium-sized screens */
+@media (max-width: 900px) {
+  .container {
+    display: block;
+    margin: 30px auto;
+    width: 100%;
+  }
+
+  .card-single,
+  .card-three {
+     width: 80%;
+     display: block;
+     margin: 25px auto;
+     padding: 30px;
+  }
+}
+
+.card-white:hover {
+  background-color: #e4d9ff;
+}
+
+.colorize {
+  cursor: pointer;
+}

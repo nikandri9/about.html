@@ -1,0 +1,46 @@
+@import url(components/cards.css);
+@import url(components/social.css);
+
+body {
+  background-color: #f1f1f0;
+  font-family: "Menlo", sans-serif;
+  color: #4d4d4d;
+  font-size: 12pt;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  color: #4d4d4d;
+  font-size: 20pt;
+  font-family: "Menlo", sans-serif;
+}
+
+.button-grey {
+  color: #ffffff;
+  background: #4d4d4d;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin: 20px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.button-grey:hover {
+  opacity: 0.8;
+}
+
+.img-circle {
+  border-radius: 2px;
+  box-shadow: 5px 5px 0 #4d4d4d;
+  border: 1px solid #4d4d4d;
+  width: 100px;
+  height: 100px;
+  margin: 15px 0;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,22 @@
+/*Social Media Card*/
+
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  /*list-style: none;*/
+}
+
+.list-inline > li > a {
+  color: #4d4d4d;
+  padding: 20px;
+  font-size: 25px;
+  margin: 0;
+}
+
+.list-inline > li > a:hover {
+  opacity: 0.8;
+}
